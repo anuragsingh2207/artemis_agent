@@ -1,0 +1,22 @@
+### Starting podman, minikube
+podman machine start
+podman info
+minikube start --driver=podman
+kubectl get nodes
+kubectl get pods
+
+### Testing Ollama LLM
+ollama list
+ollama run qwen3:0.6b
+Explain Kubernetes CrashLoopBackOff in simple terms.
+/bye
+
+
+
+### Testing Google ADK
+python -c "import google.adk; print('ADK OK')"
+
+python -c "from app.tools.kubernetes import get_pods; print(get_pods())"
+
+### Running the ADK
+adk web app
